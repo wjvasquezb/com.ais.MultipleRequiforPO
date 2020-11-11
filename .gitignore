@@ -1,4 +1,4 @@
 /ais_base/
-,gitignore
+.gitignore
 /ais_customization/
 /AIS-Idempiere/
