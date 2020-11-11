@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: com.ais.Customizations
+Bundle-SymbolicName: com.ais.MultipleRequiforPO
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: AIS
+Automatic-Module-Name: com.ais.customizations
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.adempiere.base;bundle-version="7.1.0",
+ org.adempiere.plugin.utils;bundle-version="7.1.0",
+ org.adempiere.ui.zk;bundle-version="7.1.0",
+ org.adempiere.ui;bundle-version="7.1.0",
+ zk;bundle-version="9.0.1",
+ zul;bundle-version="9.0.1"
+Import-Package: org.apache.commons.collections.keyvalue;version="3.2.2"
+Service-Component: OSGI-INF/AisProcessFactorys.xml,
+ OSGI-INF/AisCreateFromFactorys.xml
